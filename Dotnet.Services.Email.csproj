@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>DotnetFramework.Services.Email</PackageId>
+    <Product>DotnetFramework.Services</Product>
+    <Authors>liubo</Authors>
+    <Company>liubo</Company>
+    <Description>微服务架构， 统一邮件发送接口。 统一邮件发送帮助类</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+    <PackageReference Include="RazorLight" Version="2.0.0-alpha3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Dotnet\Dotnet.Common.csproj" />
+    <ProjectReference Include="..\Dotnet.Services.Base\Dotnet.Services.Base.csproj" />
+  </ItemGroup>
+
+</Project>

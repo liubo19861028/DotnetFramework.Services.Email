@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DotnetFramework.Services.Email</id>
+    <version>1.0.0</version>
+    <authors>liubo</authors>
+    <owners>liubo</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>微服务架构， 统一邮件发送接口。 统一邮件发送帮助类</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Dotnet.Services.Base" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="DotnetFramework" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.ViewFeatures" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="RazorLight" version="2.0.0-alpha3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\MyProject\DotCommon-master\Dotnet-master\Services\Dotnet.Services.Email\bin\Debug\netstandard2.0\Dotnet.Services.Email.dll" target="lib\netstandard2.0\Dotnet.Services.Email.dll" />
+  </files>
+</package>
